@@ -8,12 +8,12 @@ nome varchar(255),
 sala varchar(255),
 ra bigint,
 materia varchar(255),
-notaFinal decimal(2,1),
+notaFinal decimal(3,1), -- 3 é a quantidade total e 2 a quantidade depois da virgula
 primary key (id)
 );
 
 insert into tb_estudantes (nome, sala, ra, materia, notaFinal)
-value ("Camila fernandes da Silva" , "7° ano A", 0001087623455, "Matemática" , 9.0);
+value ("Camila fernandes da Silva" , "7° ano A", 0001087623455, "Matemática" , 10.0);
 insert into tb_estudantes (nome, sala, ra, materia, notaFinal)
 value ("Bruna Alves da Oliveira" , "7° ano C", 0001382914724, "Matemática" , 6.5);
 insert into tb_estudantes (nome, sala, ra, materia, notaFinal)
